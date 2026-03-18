@@ -16,36 +16,51 @@
   },
   "hero": {
     "badge": "BTG Pactual合作伙伴 · 2024年十大投资机构",
-    "title": "您的",
-    "titleAccent": "投资之家",
-    "subtitle": "为个人和企业提供个性化投资咨询服务。我们携手共同在金融市场中航行，凭借策略、透明度和30年的经验。",
-    "cta": "立即开始",
-    "ctaSecondary": "认识我们的团队",
+    "title": "让您的钱",
+    "titleAccent": "为您工作",
+    "subtitle": "Cais是BTG Pactual认可的投资咨询机构。我们帮助您安全投资，无行业术语，提供个性化策略。",
+    "cta": "WhatsApp联系",
+    "ctaSecondary": "了解如何运作",
     "scrollIndicator": "向下滚动探索",
     "stats": [
-      {
-        "value": "500+",
-        "label": "客户"
-      },
-      {
-        "value": "BTG",
-        "label": "Pactual"
-      },
-      {
-        "value": "Top 10",
-        "label": "Necton 2024"
-      }
+      { "value": "500+", "label": "活跃客户" },
+      { "value": "10亿+", "label": "管理资产" },
+      { "value": "Top 10", "label": "Necton 2024" }
     ]
+  },
+  "about": {
+    "label": "关于我们",
+    "title": "我们是您的投资机构",
+    "subtitle": "我们不是银行，不是经纪商。我们是顾问——为您的利益工作的认证专业人士。",
+    "body": "Cais Investimentos的创立有一个明确的使命：让最好的市场投资对所有人都触手可及，拥有超过30年的丰富经验。",
+    "differentiator": "投资顾问与银行经理不同：他没有产品销售目标。他为您服务。",
+    "pillars": [
+      { "title": "认证专业知识", "description": "我们的团队持有CEA和CFP®认证，以及FGV MBA学位。" },
+      { "title": "BTG Pactual合作伙伴", "description": "在拉丁美洲最大投资银行的安全保障下投资，完全透明。" },
+      { "title": "真实服务", "description": "您有一位专属顾问，了解您的故事、目标，随时为您服务。" }
+    ],
+    "cta": "认识团队",
+    "whatsapp": "WhatsApp联系"
+  },
+  "howItWorks": {
+    "label": "如何运作",
+    "title": "从第一次接触到财富增长",
+    "subtitle": "简单透明的流程——适合初次投资者和有经验的投资者。",
+    "steps": [
+      { "number": "01", "title": "初步对话", "description": "通过WhatsApp与我们的顾问交流，无需承诺，免费。我们倾听您的情况。" },
+      { "number": "02", "title": "免费诊断", "description": "我们分析您当前的财务状况、生活目标和风险承受能力。" },
+      { "number": "03", "title": "个性化策略", "description": "我们制定一份清晰的投资计划，无术语，专为您量身定制。" },
+      { "number": "04", "title": "持续跟踪", "description": "我们监控您的投资，在必要时调整您的投资组合。您随时了解每分钱的去向。" }
+    ],
+    "cta": "立即免费开始"
   },
   "stats": {
     "title": "定义我们的数字",
-    "years": "年经验",
     "clients": "活跃客户",
-    "awards": "所获奖项",
+    "awards": "Necton奖项",
     "aum": "管理资产",
-    "yearsValue": "30+",
     "clientsValue": "500+",
-    "awardsValue": "10+",
+    "awardsValue": "Top 10",
     "aumValue": "10亿雷亚尔+"
   },
   "services": {
@@ -142,9 +157,24 @@
       "公司F"
     ]
   },
+  "education": {
+    "label": "金融教育",
+    "title": "通过专业建议，您的钱能增长多少？",
+    "subtitle": "许多人将钱存在储蓄账户，却不知道有更好的选择——同样安全，收益更高。",
+    "example": "示例：10万雷亚尔投资5年",
+    "disclaimer": "收益率仅为教育和说明目的估算。过去的业绩不保证未来的结果。",
+    "options": [
+      { "name": "储蓄账户", "rate": "约6.5%/年", "result": "R$ 137,009", "highlight": false, "tag": "" },
+      { "name": "CDB / LCI / LCA", "rate": "约11%/年", "result": "R$ 168,506", "highlight": false, "tag": "BTG产品" },
+      { "name": "多元化投资组合", "rate": "约13%/年", "result": "R$ 184,244", "highlight": true, "tag": "Cais专业建议" }
+    ],
+    "whatIsTitle": "什么是财富杠杆？",
+    "whatIsBody": "\"财富杠杆\"意味着让您的钱赚更多——不必承担更多风险。在专业指导下，您可以获得优质金融产品，智能分散风险。",
+    "cta": "我想更好地投资"
+  },
   "faq": {
     "title": "常见问题",
-    "subtitle": "关于Cais Investimentos您需要了解的一切",
+    "subtitle": "我们回答投资者最常问的问题。",
     "items": [
       {
         "question": "与Cais开始投资的最低金额是多少？",
@@ -177,8 +207,18 @@
     "helpSuffix": "联系我们的专家团队。"
   },
   "contact": {
-    "title": "准备好开始了吗？",
-    "subtitle": "与我们的专家交流，迈出走向智慧财务管理的第一步",
+    "title": "我们来聊聊？",
+    "subtitle": "迈出第一步。谈话是免费的，没有承诺。",
+    "whatsappTitle": "更喜欢WhatsApp？",
+    "whatsappSubtitle": "我们的团队当天回复。点击立即联系：",
+    "whatsapp1Label": "圣埃斯皮里图州",
+    "whatsapp1": "27 99714-9473",
+    "whatsapp1Link": "https://wa.me/5527997149473",
+    "whatsapp2Label": "伯南布哥州",
+    "whatsapp2": "81 99601-9115",
+    "whatsapp2Link": "https://wa.me/5581996019115",
+    "whatsappCta": "打开WhatsApp",
+    "orDivider": "或填写表格",
     "form": {
       "name": "全名",
       "email": "电子邮件",

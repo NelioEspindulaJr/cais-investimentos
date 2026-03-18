@@ -17,9 +17,12 @@ const partners = [
 export default function LogoStrip() {
   const t = useTranslations("logoStrip");
   return (
-    <section className="py-16 border-y border-[rgba(201,168,76,0.08)] bg-[#0a0a0f] overflow-hidden">
+    <section
+      className="py-16 border-y border-[rgba(201,168,76,0.08)] overflow-hidden"
+      style={{ background: "var(--section-bg-primary)" }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
-        <p className="text-center text-white/30 text-xs tracking-widest uppercase">
+        <p className="text-center text-gray-900/30 dark:text-white/30 text-xs tracking-widest uppercase">
           {t("label")}
         </p>
       </div>
@@ -31,11 +34,11 @@ export default function LogoStrip() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
         <div className="flex flex-wrap items-center justify-center gap-8">
           <TrustBadge icon="🏆" label={t("badge1Label")} sub={t("badge1Sub")} />
-          <div className="w-px h-8 bg-white/10 hidden sm:block" />
+          <div className="w-px h-8 bg-black/10 dark:bg-white/10 hidden sm:block" />
           <TrustBadge icon="✓" label={t("badge2Label")} sub={t("badge2Sub")} />
-          <div className="w-px h-8 bg-white/10 hidden sm:block" />
+          <div className="w-px h-8 bg-black/10 dark:bg-white/10 hidden sm:block" />
           <TrustBadge icon="📋" label={t("badge3Label")} sub={t("badge3Sub")} />
-          <div className="w-px h-8 bg-white/10 hidden sm:block" />
+          <div className="w-px h-8 bg-black/10 dark:bg-white/10 hidden sm:block" />
           <TrustBadge icon="🎓" label={t("badge4Label")} sub={t("badge4Sub")} />
         </div>
       </div>
@@ -79,7 +82,7 @@ function Ticker() {
                 alt={partner.name}
                 width={80}
                 height={40}
-                className="grayscale hover:grayscale-0 transition-all duration-300 shrink-0"
+                className="grayscale hover:grayscale-0 transition-all duration-300 shrink-0 dark:brightness-100 brightness-0 dark:opacity-60 opacity-70 hover:brightness-100 hover:opacity-100"
               />
             ))}
           </div>
@@ -102,8 +105,8 @@ function TrustBadge({
     <div className="flex items-center gap-3">
       <span className="text-xl">{icon}</span>
       <div>
-        <div className="text-white/70 text-sm font-medium">{label}</div>
-        <div className="text-white/30 text-xs">{sub}</div>
+        <div className="text-gray-900/70 dark:text-white/70 text-sm font-medium">{label}</div>
+        <div className="text-gray-900/30 dark:text-white/30 text-xs">{sub}</div>
       </div>
     </div>
   );

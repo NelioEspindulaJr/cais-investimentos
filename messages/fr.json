@@ -16,36 +16,51 @@
   },
   "hero": {
     "badge": "Partenaire BTG Pactual · Top 10 Bureaux 2024",
-    "title": "Votre maison d'",
-    "titleAccent": "investissements",
-    "subtitle": "Conseil en investissement personnalisé pour les particuliers et les entreprises. Nous naviguons ensemble sur les marchés financiers avec stratégie, transparence et 30 ans d'expérience.",
-    "cta": "Commencer",
-    "ctaSecondary": "Notre Équipe",
+    "title": "Faites travailler votre",
+    "titleAccent": "argent pour vous",
+    "subtitle": "Cais est un bureau de conseil en investissement accrédité par BTG Pactual. Nous vous aidons à investir en toute sécurité, sans jargon et avec une stratégie personnalisée.",
+    "cta": "Parler sur WhatsApp",
+    "ctaSecondary": "Comprendre comment ça marche",
     "scrollIndicator": "Faites défiler pour explorer",
     "stats": [
-      {
-        "value": "500+",
-        "label": "Clients"
-      },
-      {
-        "value": "BTG",
-        "label": "Pactual"
-      },
-      {
-        "value": "Top 10",
-        "label": "Necton 2024"
-      }
+      { "value": "500+", "label": "Clients Actifs" },
+      { "value": "R$1B+", "label": "En Actifs" },
+      { "value": "Top 10", "label": "Necton 2024" }
     ]
+  },
+  "about": {
+    "label": "Qui Sommes-Nous",
+    "title": "Votre bureau d'investissement",
+    "subtitle": "Nous ne sommes pas une banque. Nous ne sommes pas un courtier. Nous sommes des conseillers — des professionnels certifiés qui travaillent pour votre intérêt.",
+    "body": "Cais Investimentos a été créée avec une mission claire : rendre les meilleurs investissements accessibles à tous, avec plus de 30 ans d'expérience accumulée.",
+    "differentiator": "Un conseiller en investissement est différent d'un banquier : il n'a pas d'objectifs de vente. Il travaille pour vous.",
+    "pillars": [
+      { "title": "Expertise Certifiée", "description": "Notre équipe détient les certifications CEA et CFP®, les plus reconnues du marché financier brésilien, plus un MBA FGV." },
+      { "title": "Partenaire BTG Pactual", "description": "Vous investissez avec la sécurité de la plus grande banque d'investissement d'Amérique Latine, en toute transparence." },
+      { "title": "Service Personnalisé", "description": "Vous avez un conseiller dédié qui connaît votre histoire, vos objectifs et est toujours disponible." }
+    ],
+    "cta": "Rencontrer l'équipe",
+    "whatsapp": "Parler sur WhatsApp"
+  },
+  "howItWorks": {
+    "label": "Comment Ça Marche",
+    "title": "Du premier contact à la croissance de votre patrimoine",
+    "subtitle": "Un processus simple et transparent — pour les débutants et les investisseurs expérimentés.",
+    "steps": [
+      { "number": "01", "title": "Conversation initiale", "description": "Vous parlez à l'un de nos conseillers sur WhatsApp, sans engagement et sans frais. Nous écoutons votre situation." },
+      { "number": "02", "title": "Diagnostic gratuit", "description": "Nous analysons votre situation financière actuelle, vos objectifs de vie et le niveau de risque que vous souhaitez prendre." },
+      { "number": "03", "title": "Stratégie personnalisée", "description": "Nous élaborons un plan d'investissement avec des recommandations claires, sans jargon, fait exclusivement pour vous." },
+      { "number": "04", "title": "Suivi continu", "description": "Nous surveillons vos investissements et ajustons votre portefeuille si nécessaire. Vous savez toujours où est chaque euro." }
+    ],
+    "cta": "Commencer maintenant, gratuitement"
   },
   "stats": {
     "title": "Chiffres qui nous définissent",
-    "years": "Ans d'Expérience",
     "clients": "Clients Actifs",
-    "awards": "Prix Reçus",
+    "awards": "Prix Necton",
     "aum": "En Actifs Gérés",
-    "yearsValue": "30+",
     "clientsValue": "500+",
-    "awardsValue": "10+",
+    "awardsValue": "Top 10",
     "aumValue": "R$1B+"
   },
   "services": {
@@ -142,9 +157,24 @@
       "Entreprise F"
     ]
   },
+  "education": {
+    "label": "Éducation Financière",
+    "title": "Combien votre argent peut-il rapporter avec un conseil professionnel?",
+    "subtitle": "Beaucoup de gens laissent de l'argent sur un livret sans savoir qu'il existe de meilleures options — tout aussi sûres et bien plus rentables.",
+    "example": "Exemple illustratif : R$ 100 000 investis sur 5 ans",
+    "disclaimer": "Rendements estimés à des fins éducatives et illustratives. Les performances passées ne garantissent pas les résultats futurs.",
+    "options": [
+      { "name": "Livret d'épargne", "rate": "~6,5% par an", "result": "R$ 137 009", "highlight": false, "tag": "" },
+      { "name": "CDB / LCI / LCA", "rate": "~11% par an", "result": "R$ 168 506", "highlight": false, "tag": "Produits BTG" },
+      { "name": "Portefeuille Diversifié", "rate": "~13% par an", "result": "R$ 184 244", "highlight": true, "tag": "Avec Conseil Cais" }
+    ],
+    "whatIsTitle": "Qu'est-ce que l'effet de levier patrimonial?",
+    "whatIsBody": "\"Faire levier sur votre patrimoine\" signifie faire travailler votre argent davantage — sans nécessairement prendre plus de risques. Avec des conseils professionnels, vous accédez à des produits financiers de qualité.",
+    "cta": "Je veux mieux investir"
+  },
   "faq": {
-    "title": "Questions Fréquentes",
-    "subtitle": "Tout ce que vous devez savoir sur Cais Investimentos",
+    "title": "Questions fréquentes",
+    "subtitle": "Nous répondons aux questions que nous recevons le plus souvent de ceux qui envisagent d'investir avec Cais.",
     "items": [
       {
         "question": "Quel est le montant minimum pour commencer à investir avec Cais?",
@@ -177,8 +207,18 @@
     "helpSuffix": "avec notre équipe de spécialistes."
   },
   "contact": {
-    "title": "Prêt à commencer?",
-    "subtitle": "Parlez à nos spécialistes et faites le premier pas vers une gestion financière intelligente",
+    "title": "On discute?",
+    "subtitle": "Faites le premier pas. La conversation est gratuite et sans engagement.",
+    "whatsappTitle": "Vous préférez WhatsApp?",
+    "whatsappSubtitle": "Notre équipe répond le jour même. Cliquez et parlez maintenant:",
+    "whatsapp1Label": "Espírito Santo",
+    "whatsapp1": "27 99714-9473",
+    "whatsapp1Link": "https://wa.me/5527997149473",
+    "whatsapp2Label": "Pernambuco",
+    "whatsapp2": "81 99601-9115",
+    "whatsapp2Link": "https://wa.me/5581996019115",
+    "whatsappCta": "Ouvrir WhatsApp",
+    "orDivider": "ou remplissez le formulaire",
     "form": {
       "name": "Nom complet",
       "email": "E-mail",

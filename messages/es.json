@@ -16,41 +16,82 @@
   },
   "hero": {
     "badge": "Socio BTG Pactual · Top 10 Oficinas 2024",
-    "title": "Tu casa de",
-    "titleAccent": "inversiones",
-    "subtitle": "Asesoría de inversiones personalizada para personas y empresas. Navegamos juntos los mercados financieros con estrategia, transparencia y 30 años de experiencia.",
-    "cta": "Comenzar Ahora",
-    "ctaSecondary": "Conoce Nuestro Equipo",
+    "title": "Haz que tu dinero",
+    "titleAccent": "trabaje por ti",
+    "subtitle": "Cais es una oficina de asesoría de inversiones acreditada por BTG Pactual. Te ayudamos a invertir con seguridad, sin jergas y con estrategia personalizada.",
+    "cta": "Hablar por WhatsApp",
+    "ctaSecondary": "Entender cómo funciona",
     "scrollIndicator": "Desplázate para explorar",
     "stats": [
-      {
-        "value": "500+",
-        "label": "Clientes"
-      },
-      {
-        "value": "BTG",
-        "label": "Pactual"
-      },
-      {
-        "value": "Top 10",
-        "label": "Necton 2024"
-      }
+      { "value": "500+", "label": "Clientes Activos" },
+      { "value": "R$1B+", "label": "En Activos" },
+      { "value": "Top 10", "label": "Necton 2024" }
     ]
+  },
+  "about": {
+    "label": "Quiénes Somos",
+    "title": "Somos tu oficina de inversiones",
+    "subtitle": "No somos un banco. No somos una corredora. Somos asesores — profesionales certificados que trabajan para tu interés, no para el del banco.",
+    "body": "Cais Investimentos fue creada con una misión clara: hacer que las mejores inversiones del mercado sean accesibles para todos. Con más de 30 años de experiencia acumulada y la seguridad de ser socio acreditado de BTG Pactual.",
+    "differentiator": "Un asesor de inversiones es diferente del gerente del banco: no tiene metas de producto que cumplir. Trabaja para ti.",
+    "pillars": [
+      {
+        "title": "Experiencia Certificada",
+        "description": "Nuestro equipo posee certificaciones CEA y CFP®, las más reconocidas del mercado financiero brasileño, además de MBA por FGV."
+      },
+      {
+        "title": "Socio BTG Pactual",
+        "description": "Inviertes con la seguridad y solidez del mayor banco de inversiones de América Latina, con total transparencia."
+      },
+      {
+        "title": "Atención Real",
+        "description": "Tienes un asesor dedicado que conoce tu historia, tus objetivos y siempre está disponible cuando lo necesitas."
+      }
+    ],
+    "cta": "Conocer el equipo",
+    "whatsapp": "Hablar por WhatsApp"
+  },
+  "howItWorks": {
+    "label": "Cómo Funciona",
+    "title": "Del primer contacto al crecimiento de tu patrimonio",
+    "subtitle": "Un proceso simple y transparente — para principiantes y para inversores con experiencia.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Conversación inicial",
+        "description": "Hablas con uno de nuestros asesores por WhatsApp, sin compromiso y sin costo. Escuchamos tu situación."
+      },
+      {
+        "number": "02",
+        "title": "Diagnóstico gratuito",
+        "description": "Analizamos tu situación financiera actual, tus objetivos de vida y cuánto riesgo quieres asumir."
+      },
+      {
+        "number": "03",
+        "title": "Estrategia personalizada",
+        "description": "Construimos un plan de inversiones con recomendaciones claras, sin jergas, hecho exclusivamente para ti."
+      },
+      {
+        "number": "04",
+        "title": "Seguimiento continuo",
+        "description": "Monitoreamos tus inversiones y ajustamos tu cartera cuando es necesario. Siempre sabes dónde está cada peso."
+      }
+    ],
+    "cta": "Empezar ahora, gratis"
   },
   "stats": {
     "title": "Números que nos definen",
-    "years": "Años de Experiencia",
     "clients": "Clientes Activos",
-    "awards": "Premios Recibidos",
+    "awards": "Premio Necton",
     "aum": "En Activos Gestionados",
-    "yearsValue": "30+",
     "clientsValue": "500+",
-    "awardsValue": "10+",
+    "awardsValue": "Top 10",
     "aumValue": "R$1B+"
   },
   "services": {
-    "title": "Soluciones de Inversión",
-    "subtitle": "Estrategias personalizadas para cada perfil y objetivo",
+    "label": "Soluciones",
+    "title": "Para ti y tu empresa",
+    "subtitle": "Estrategias de inversión personalizadas para cada etapa de la vida y objetivo financiero",
     "personal": {
       "title": "Asesoría para Personas",
       "description": "Planificación financiera y gestión de cartera para individuos que buscan crecimiento patrimonial sostenible.",
@@ -176,9 +217,34 @@
     "helpLink": "Contáctenos",
     "helpSuffix": "con nuestro equipo de especialistas."
   },
+  "education": {
+    "label": "Educación Financiera",
+    "title": "¿Cuánto puede crecer tu dinero con asesoría profesional?",
+    "subtitle": "Muchas personas dejan el dinero en el ahorro sin saber que existen opciones igualmente seguras y mucho más rentables.",
+    "example": "Ejemplo ilustrativo: R$ 100.000 invertidos durante 5 años",
+    "disclaimer": "Rentabilidades estimadas con fines educativos e ilustrativos. La rentabilidad pasada no garantiza resultados futuros.",
+    "options": [
+      { "name": "Ahorro", "rate": "~6,5% anual", "result": "R$ 137.009", "highlight": false, "tag": "" },
+      { "name": "CDB / LCI / LCA", "rate": "~11% anual", "result": "R$ 168.506", "highlight": false, "tag": "Productos BTG" },
+      { "name": "Cartera Diversificada", "rate": "~13% anual", "result": "R$ 184.244", "highlight": true, "tag": "Con Asesoría Cais" }
+    ],
+    "whatIsTitle": "¿Qué es el apalancamiento patrimonial?",
+    "whatIsBody": "\"Apalancar el patrimonio\" significa hacer que tu dinero rinda más — sin necesariamente asumir más riesgo. Con orientación profesional, accedes a productos financieros de calidad y diversificas de manera inteligente.",
+    "cta": "Quiero invertir mejor"
+  },
   "contact": {
-    "title": "¿Listo para comenzar?",
-    "subtitle": "Habla con nuestros especialistas y da el primer paso hacia una gestión financiera inteligente",
+    "title": "¿Hablamos?",
+    "subtitle": "Da el primer paso. La conversación es gratuita y sin compromiso.",
+    "whatsappTitle": "¿Prefieres WhatsApp?",
+    "whatsappSubtitle": "Nuestro equipo responde el mismo día. Haz clic y habla ahora:",
+    "whatsapp1Label": "Espírito Santo",
+    "whatsapp1": "27 99714-9473",
+    "whatsapp1Link": "https://wa.me/5527997149473",
+    "whatsapp2Label": "Pernambuco",
+    "whatsapp2": "81 99601-9115",
+    "whatsapp2Link": "https://wa.me/5581996019115",
+    "whatsappCta": "Abrir WhatsApp",
+    "orDivider": "o completa el formulario",
     "form": {
       "name": "Nombre completo",
       "email": "Correo electrónico",

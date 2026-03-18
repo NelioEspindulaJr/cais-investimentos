@@ -24,7 +24,8 @@ export default function Features() {
     <section
       ref={ref}
       id="features"
-      className="relative py-28 bg-[#0d0d16] overflow-hidden"
+      className="relative py-28 overflow-hidden"
+      style={{ background: "var(--section-bg-secondary)" }}
     >
       {/* Animated background orbs */}
       <motion.div
@@ -61,10 +62,10 @@ export default function Features() {
           <span className="inline-block text-[#c9a84c] text-xs tracking-widest uppercase mb-4">
             {t("label")}
           </span>
-          <h2 className="text-3xl md:text-5xl font-light text-white mb-4">
+          <h2 className="text-3xl md:text-5xl font-light text-gray-900 dark:text-white mb-4">
             {t("title")}
           </h2>
-          <p className="text-white/50 text-lg max-w-xl mx-auto">
+          <p className="text-gray-900/50 dark:text-white/50 text-lg max-w-xl mx-auto">
             {t("subtitle")}
           </p>
         </motion.div>
@@ -101,7 +102,7 @@ export default function Features() {
           transition={{ delay: 0.5 }}
           className="mt-16 p-8 rounded-2xl border border-[rgba(201,168,76,0.12)] bg-[rgba(201,168,76,0.03)] text-center"
         >
-          <p className="text-white/70 text-lg mb-4">{t("ctaText")}</p>
+          <p className="text-gray-900/70 dark:text-white/70 text-lg mb-4">{t("ctaText")}</p>
           <motion.a
             href="#contact"
             whileHover={{ scale: 1.03 }}
@@ -129,9 +130,9 @@ function FeatureCard({
   index: number;
 }) {
   return (
-    <div className="relative p-6 rounded-xl border border-[rgba(255,255,255,0.05)] bg-[rgba(255,255,255,0.02)] hover:border-[rgba(201,168,76,0.15)] hover:bg-[rgba(201,168,76,0.02)] transition-all duration-300 group h-52">
+    <div className="relative p-6 rounded-xl border border-black/5 dark:border-[rgba(255,255,255,0.05)] bg-black/[0.02] dark:bg-[rgba(255,255,255,0.02)] hover:border-[rgba(201,168,76,0.15)] hover:bg-[rgba(201,168,76,0.02)] transition-all duration-300 group h-52">
       {/* Index number */}
-      <div className="absolute top-4 right-4 text-white/5 text-5xl font-bold leading-none select-none">
+      <div className="absolute top-4 right-4 text-black/5 dark:text-white/5 text-5xl font-bold leading-none select-none">
         {String(index + 1).padStart(2, "0")}
       </div>
 
@@ -141,8 +142,8 @@ function FeatureCard({
       </div>
 
       {/* Content */}
-      <h3 className="text-white font-semibold mb-2 text-base">{title}</h3>
-      <p className="text-white/50 text-sm leading-relaxed">{description}</p>
+      <h3 className="text-gray-900 dark:text-white font-semibold mb-2 text-base">{title}</h3>
+      <p className="text-gray-900/50 dark:text-white/50 text-sm leading-relaxed">{description}</p>
     </div>
   );
 }

@@ -21,7 +21,8 @@ export default function Services() {
     <section
       ref={ref}
       id="services"
-      className="relative py-28 overflow-hidden bg-[#0a0a0f]"
+      className="relative py-28 overflow-hidden"
+      style={{ background: "var(--section-bg-primary)" }}
     >
       {/* Parallax background */}
       <motion.div
@@ -55,10 +56,10 @@ export default function Services() {
           <span className="inline-block text-[#c9a84c] text-xs tracking-widest uppercase mb-4">
             {t("label")}
           </span>
-          <h2 className="text-3xl md:text-5xl font-light text-white mb-4">
+          <h2 className="text-3xl md:text-5xl font-light text-gray-900 dark:text-white mb-4">
             {t("title")}
           </h2>
-          <p className="text-white/50 text-lg max-w-xl mx-auto">
+          <p className="text-gray-900/50 dark:text-white/50 text-lg max-w-xl mx-auto">
             {t("subtitle")}
           </p>
         </motion.div>
@@ -132,7 +133,7 @@ function ServiceCard({
     <div
       className="relative h-full p-8 rounded-2xl border overflow-hidden group transition-all duration-500"
       style={{
-        background: `linear-gradient(135deg, rgba(19,19,30,0.9) 0%, rgba(13,13,22,0.95) 100%)`,
+        background: "var(--service-card-bg)",
         borderColor: `${accentLight}0.15)`,
       }}
     >
@@ -156,17 +157,17 @@ function ServiceCard({
       </div>
 
       {/* Title */}
-      <h3 className="text-xl font-semibold text-white mb-3">{title}</h3>
+      <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">{title}</h3>
 
       {/* Description */}
-      <p className="text-white/50 text-sm leading-relaxed mb-6">
+      <p className="text-gray-900/50 dark:text-white/50 text-sm leading-relaxed mb-6">
         {description}
       </p>
 
       {/* Features */}
       <ul className="space-y-2.5 mb-8">
         {features.map((feature, i) => (
-          <li key={i} className="flex items-center gap-3 text-sm text-white/70">
+          <li key={i} className="flex items-center gap-3 text-sm text-gray-900/70 dark:text-white/70">
             <div
               className="w-4 h-4 rounded-full flex items-center justify-center shrink-0"
               style={{ background: `${accentLight}0.15)` }}

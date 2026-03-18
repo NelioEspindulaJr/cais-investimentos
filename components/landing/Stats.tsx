@@ -24,7 +24,8 @@ export default function Stats() {
     <section
       ref={ref}
       id="stats"
-      className="relative py-28 overflow-hidden bg-[#0d0d16]"
+      className="relative py-28 overflow-hidden"
+      style={{ background: "var(--section-bg-secondary)" }}
     >
       {/* Background elements */}
       <motion.div
@@ -48,7 +49,7 @@ export default function Stats() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-light text-gray-900 dark:text-white mb-4">
             {t("title")}
           </h2>
           <div className="w-16 h-px bg-linear-to-r from-transparent via-[#c9a84c] to-transparent mx-auto" />
@@ -82,7 +83,7 @@ function StatCard({
     <motion.div
       whileHover={{ y: -4, scale: 1.02 }}
       transition={{ type: "spring", stiffness: 300, damping: 20 }}
-      className="relative group p-8 rounded-2xl border border-[rgba(201,168,76,0.08)] bg-[rgba(255,255,255,0.02)] hover:border-[rgba(201,168,76,0.2)] hover:bg-[rgba(201,168,76,0.03)] transition-all duration-300 overflow-hidden text-center"
+      className="relative group p-8 rounded-2xl border border-[rgba(201,168,76,0.08)] bg-black/[0.02] dark:bg-[rgba(255,255,255,0.02)] hover:border-[rgba(201,168,76,0.2)] hover:bg-[rgba(201,168,76,0.03)] transition-all duration-300 overflow-hidden text-center"
     >
       {/* Corner accent */}
       <div className="absolute top-0 right-0 w-16 h-16 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -101,7 +102,7 @@ function StatCard({
       </div>
 
       {/* Label */}
-      <div className="text-white/60 text-sm mt-2">{stat.label}</div>
+      <div className="text-gray-900/60 dark:text-white/60 text-sm mt-2">{stat.label}</div>
     </motion.div>
   );
 }

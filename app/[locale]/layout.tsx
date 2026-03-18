@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import Analytics from "@/components/analytics/Analytics";
+import { ThemeProvider } from "@/components/ThemeProvider";
 import "../globals.css";
 
 const BASE_URL = "https://caisinvestimentos.com.br";
@@ -143,12 +144,14 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className="dark" suppressHydrationWarning>
-      <body className={`${lato.className} antialiased bg-[#0a0a0f] text-white`}>
-        <Analytics />
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+    <html lang={locale} suppressHydrationWarning>
+      <body className={`${lato.className} antialiased`}>
+        <ThemeProvider>
+          <Analytics />
+          <NextIntlClientProvider messages={messages}>
+            {children}
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

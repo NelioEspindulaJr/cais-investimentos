@@ -8,7 +8,10 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-[#08080f] border-t border-[rgba(201,168,76,0.08)] overflow-hidden">
+    <footer
+      className="relative border-t border-[rgba(201,168,76,0.08)] overflow-hidden"
+      style={{ background: "var(--footer-bg)" }}
+    >
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
@@ -29,22 +32,23 @@ export default function Footer() {
                   alt="cais-logo"
                   width={150}
                   height={100}
+                  className="brightness-0 dark:brightness-100"
                 />
               </div>
             </div>
-            <p className="text-white/40 text-sm leading-relaxed max-w-xs mb-6">
+            <p className="text-gray-900/40 dark:text-white/40 text-sm leading-relaxed max-w-xs mb-6">
               {t("tagline")}. {t("description")}
             </p>
             <div className="flex items-center gap-2 p-3 rounded-lg border border-[rgba(201,168,76,0.12)] bg-[rgba(201,168,76,0.04)] w-fit">
               <span className="text-[#c9a84c] text-xs font-bold">BTG</span>
-              <div className="w-px h-3 bg-white/10" />
-              <span className="text-white/40 text-xs">{t("partner")}</span>
+              <div className="w-px h-3 bg-black/10 dark:bg-white/10" />
+              <span className="text-gray-900/40 dark:text-white/40 text-xs">{t("partner")}</span>
             </div>
           </div>
 
           {/* Services */}
           <div>
-            <h4 className="text-white/60 text-xs tracking-widest uppercase mb-5">
+            <h4 className="text-gray-900/60 dark:text-white/60 text-xs tracking-widest uppercase mb-5">
               {t("servicesTitle")}
             </h4>
             <ul className="space-y-3">
@@ -52,7 +56,7 @@ export default function Footer() {
                 <li key={item}>
                   <a
                     href="#services"
-                    className="text-white/40 hover:text-white/70 text-sm transition-colors"
+                    className="text-gray-900/40 dark:text-white/40 hover:text-gray-900/70 dark:hover:text-white/70 text-sm transition-colors"
                   >
                     {item}
                   </a>
@@ -63,7 +67,7 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h4 className="text-white/60 text-xs tracking-widest uppercase mb-5">
+            <h4 className="text-gray-900/60 dark:text-white/60 text-xs tracking-widest uppercase mb-5">
               {t("companyTitle")}
             </h4>
             <ul className="space-y-3">
@@ -74,7 +78,7 @@ export default function Footer() {
                 <li key={item.label}>
                   <a
                     href={item.href}
-                    className="text-white/40 hover:text-white/70 text-sm transition-colors"
+                    className="text-gray-900/40 dark:text-white/40 hover:text-gray-900/70 dark:hover:text-white/70 text-sm transition-colors"
                   >
                     {item.label}
                   </a>
@@ -85,15 +89,15 @@ export default function Footer() {
         </div>
 
         {/* Legal disclaimer */}
-        <div className="py-6 border-t border-[rgba(255,255,255,0.05)]">
-          <p className="text-white/20 text-[11px] leading-relaxed">
+        <div className="py-6 border-t border-black/5 dark:border-[rgba(255,255,255,0.05)]">
+          <p className="text-gray-900/20 dark:text-white/20 text-[11px] leading-relaxed">
             {t.rich("disclaimer", {
               ancordLink: (chunks) => (
                 <a
                   href="https://www.ancord.org.br/certificacao-e-credenciamento/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline underline-offset-2 hover:text-white/40 transition-colors"
+                  className="underline underline-offset-2 hover:text-gray-900/40 dark:hover:text-white/40 transition-colors"
                 >
                   {chunks}
                 </a>
@@ -103,7 +107,7 @@ export default function Footer() {
                   href="https://www.necton.com.br/seja-parceiro/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline underline-offset-2 hover:text-white/40 transition-colors"
+                  className="underline underline-offset-2 hover:text-gray-900/40 dark:hover:text-white/40 transition-colors"
                 >
                   {chunks}
                 </a>
@@ -113,8 +117,8 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="py-6 border-t border-[rgba(255,255,255,0.05)] flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-white/25 text-xs">
+        <div className="py-6 border-t border-black/5 dark:border-[rgba(255,255,255,0.05)] flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-gray-900/25 dark:text-white/25 text-xs">
             © {currentYear} Cais Investimentos. {t("rights")}.
           </p>
           <div className="flex items-center gap-6">
@@ -126,7 +130,7 @@ export default function Footer() {
               <a
                 key={link.label}
                 href={link.href}
-                className="text-white/25 hover:text-white/50 text-xs transition-colors"
+                className="text-gray-900/25 dark:text-white/25 hover:text-gray-900/50 dark:hover:text-white/50 text-xs transition-colors"
               >
                 {link.label}
               </a>
