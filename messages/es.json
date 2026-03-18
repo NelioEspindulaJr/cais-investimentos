@@ -1,0 +1,243 @@
+{
+  "nav": {
+    "product": "Producto",
+    "features": "Características",
+    "solutions": "Soluciones",
+    "resources": "Recursos",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "getStarted": "Comenzar",
+    "featuresDesc": "Funcionalidades completas",
+    "solutionsDesc": "Soluciones personalizadas",
+    "personal": "Persona Física",
+    "personalDesc": "Asesoría individual",
+    "corporate": "Persona Jurídica",
+    "corporateDesc": "Asesoría corporativa"
+  },
+  "hero": {
+    "badge": "Socio BTG Pactual · Top 10 Oficinas 2024",
+    "title": "Tu casa de",
+    "titleAccent": "inversiones",
+    "subtitle": "Asesoría de inversiones personalizada para personas y empresas. Navegamos juntos los mercados financieros con estrategia, transparencia y 30 años de experiencia.",
+    "cta": "Comenzar Ahora",
+    "ctaSecondary": "Conoce Nuestro Equipo",
+    "scrollIndicator": "Desplázate para explorar",
+    "stats": [
+      {
+        "value": "500+",
+        "label": "Clientes"
+      },
+      {
+        "value": "BTG",
+        "label": "Pactual"
+      },
+      {
+        "value": "Top 10",
+        "label": "Necton 2024"
+      }
+    ]
+  },
+  "stats": {
+    "title": "Números que nos definen",
+    "years": "Años de Experiencia",
+    "clients": "Clientes Activos",
+    "awards": "Premios Recibidos",
+    "aum": "En Activos Gestionados",
+    "yearsValue": "30+",
+    "clientsValue": "500+",
+    "awardsValue": "10+",
+    "aumValue": "R$1B+"
+  },
+  "services": {
+    "title": "Soluciones de Inversión",
+    "subtitle": "Estrategias personalizadas para cada perfil y objetivo",
+    "personal": {
+      "title": "Asesoría para Personas",
+      "description": "Planificación financiera y gestión de cartera para individuos que buscan crecimiento patrimonial sostenible.",
+      "features": [
+        "Análisis de perfil de riesgo",
+        "Diversificación de cartera",
+        "Seguimiento continuo",
+        "Informes personalizados"
+      ]
+    },
+    "corporate": {
+      "title": "Asesoría Empresarial",
+      "description": "Soluciones financieras corporativas para optimizar el capital de tu empresa con seguridad y rentabilidad.",
+      "features": [
+        "Gestión de tesorería",
+        "Inversiones en renta fija",
+        "Productos estructurados",
+        "Asesoría fiscal"
+      ]
+    },
+    "label": "Soluciones",
+    "learnMore": "Saber más"
+  },
+  "features": {
+    "title": "¿Por qué elegir Cais?",
+    "subtitle": "Una plataforma completa de inversiones enfocada en resultados",
+    "items": [
+      {
+        "title": "Experiencia Probada",
+        "description": "Equipo con certificaciones CEA y CFP® y décadas de experiencia en el mercado financiero."
+      },
+      {
+        "title": "Socio BTG Pactual",
+        "description": "Acceso privilegiado a los productos y plataforma del mayor banco de inversiones de América Latina."
+      },
+      {
+        "title": "Enfoque Personalizado",
+        "description": "Cada cliente recibe una estrategia única basada en sus objetivos, horizonte temporal y tolerancia al riesgo."
+      },
+      {
+        "title": "Transparencia Total",
+        "description": "Informes claros y periódicos sobre el rendimiento y composición de tu cartera."
+      },
+      {
+        "title": "Tecnología Avanzada",
+        "description": "Plataforma digital integrada para el seguimiento en tiempo real de tus inversiones."
+      },
+      {
+        "title": "Servicio Dedicado",
+        "description": "Asesores disponibles en Brasil con atención nacional e internacional."
+      }
+    ],
+    "label": "Diferenciales",
+    "ctaText": "¿Listo para comenzar su camino de inversiones con los mejores profesionales?",
+    "ctaButton": "Habla con un especialista"
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros clientes",
+    "subtitle": "Historias reales de transformación financiera",
+    "items": [
+      {
+        "name": "Carlos M.",
+        "role": "Empresario",
+        "text": "Cais Investimentos transformó mi visión de la gestión patrimonial. Con su asesoría, logré diversificar mi cartera de forma inteligente y segura.",
+        "company": "Empresa de Tecnología"
+      },
+      {
+        "name": "Ana P.",
+        "role": "Médica",
+        "text": "Profesionales excepcionales que entienden mis necesidades específicas como autónoma. Mi cartera ha crecido consistentemente en los últimos 3 años.",
+        "company": "Clínica Médica"
+      },
+      {
+        "name": "Roberto S.",
+        "role": "Director Financiero",
+        "text": "La asesoría corporativa de Cais fue fundamental para optimizar el capital de nuestra empresa. Rentabilidad superior a la media del mercado.",
+        "company": "Industria Regional"
+      }
+    ],
+    "label": "Testimonios",
+    "verifiedClient": "Cliente verificado",
+    "clientsTitle": "Clientes que confían en nosotros",
+    "companies": [
+      "Empresa A",
+      "Empresa B",
+      "Empresa C",
+      "Empresa D",
+      "Empresa E",
+      "Empresa F"
+    ]
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Cais Investimentos",
+    "items": [
+      {
+        "question": "¿Cuál es el monto mínimo para comenzar a invertir con Cais?",
+        "answer": "No hay un monto mínimo fijo. Adaptamos nuestras soluciones al perfil y capital disponible de cada cliente."
+      },
+      {
+        "question": "¿Cómo funciona la asociación con BTG Pactual?",
+        "answer": "Somos una oficina acreditada por BTG Pactual, el mayor banco de inversiones de América Latina."
+      },
+      {
+        "question": "¿Qué certificaciones tiene el equipo de Cais?",
+        "answer": "Nuestro equipo posee certificaciones CEA, CFP® y MBA por FGV, además de más de 30 años de experiencia."
+      },
+      {
+        "question": "¿Cais atiende clientes de todo Brasil?",
+        "answer": "¡Sí! Aunque tenemos oficinas físicas en Santa Maria de Jetibá/ES y Recife/PE, atendemos clientes de todo Brasil."
+      },
+      {
+        "question": "¿Cómo se gestiona mi cartera?",
+        "answer": "Realizamos un análisis completo de tu perfil de inversor, objetivos y horizonte temporal para construir una cartera diversificada."
+      },
+      {
+        "question": "¿Con qué frecuencia recibo informes?",
+        "answer": "Proporcionamos informes mensuales detallados y estamos disponibles para reuniones periódicas de seguimiento."
+      }
+    ],
+    "label": "FAQ",
+    "helpText": "¿No encontró lo que buscaba?",
+    "helpLink": "Contáctenos",
+    "helpSuffix": "con nuestro equipo de especialistas."
+  },
+  "contact": {
+    "title": "¿Listo para comenzar?",
+    "subtitle": "Habla con nuestros especialistas y da el primer paso hacia una gestión financiera inteligente",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje",
+      "namePlaceholder": "Tu nombre",
+      "emailPlaceholder": "tu@email.com",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "messagePlaceholder": "¿Cómo podemos ayudarte?"
+    },
+    "success": "¡Mensaje enviado! Te contactaremos pronto.",
+    "label": "Contacto",
+    "successTitle": "¡Mensaje enviado!",
+    "sendAnother": "Enviar otro mensaje",
+    "officesTitle": "Oficinas",
+    "office1Name": "Santa Maria de Jetibá",
+    "office1State": "Espírito Santo, ES",
+    "office2Name": "Recife",
+    "office2State": "Pernambuco, PE",
+    "btgPartner": "Socio BTG Pactual",
+    "btgAccredited": "Oficina Acreditada",
+    "btgDesc": "Acceso privilegiado a los productos y plataforma del mayor banco de inversiones de América Latina."
+  },
+  "footer": {
+    "tagline": "Tu casa de inversiones",
+    "rights": "Todos los derechos reservados",
+    "links": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Uso",
+      "cookies": "Cookies"
+    },
+    "offices": "Oficinas",
+    "office1": "Santa Maria de Jetibá, ES",
+    "office2": "Recife, PE",
+    "partner": "Socio Acreditado",
+    "description": "Asesoría de inversiones personalizada para particulares y empresas.",
+    "servicesTitle": "Servicios",
+    "serviceLinks": [
+      "Asesoría Personal",
+      "Asesoría Empresarial",
+      "Planificación Financiera",
+      "Gestión de Cartera"
+    ],
+    "companyTitle": "Empresa",
+    "companyAbout": "Sobre nosotros",
+    "companyTeam": "Equipo",
+    "companyContact": "Contacto",
+    "disclaimer": "Cais Investimentos Assessor De Investimento Ltda, inscrita bajo el CNPJ nº 49.404.040/0001-98, es una empresa de asesoría de inversiones debidamente registrada en la Comissão de Valores Mobiliários (CVM), conforme a la Resolución CVM 178. Actuando en el mercado financiero como preposto del Banco BTG Pactual S/A, lo que puede verificarse a través del sitio de ANCORD (<ancordLink>https://www.ancord.org.br/certificacao-e-credenciamento/</ancordLink>) o del sitio de Necton Investimentos (<nectonLink>https://www.necton.com.br/seja-parceiro/</nectonLink>). El Banco BTG Pactual S/A es una institución financiera integrante del sistema de distribución de títulos y valores mobiliarios, actuando como intermediario de las operaciones de sus clientes. Conforme a la legislación de la CVM, el asesor de inversiones no puede administrar ni gestionar el patrimonio de los inversores, ya que es un preposto del intermediario y depende de la autorización previa del cliente para realizar operaciones en el mercado financiero. En la realización de operaciones con derivados, existe la posibilidad de pérdidas patrimoniales significativas, inclusive superiores a los valores invertidos. La asesoría puede ejercer otras actividades relacionadas con el mercado financiero, de capitales, de seguros, de previsión y capitalización, que pueden o no estar en colaboración con BTG Pactual u otras instituciones, y que pueden o no ser realizadas por la misma persona jurídica de la asesoría. Específicamente en cuanto a las actividades de gestión, consultoría y análisis de valores mobiliarios, estas podrán ser desempeñadas por empresas del grupo y nunca por la propia asesoría de inversiones, considerando que son actividades conflictivas que exigen segregación. La inversión en acciones es una inversión de riesgo y la rentabilidad pasada no garantiza la rentabilidad futura. Para reclamaciones, comuníquese con la Ouvidoria del Banco BTG Pactual S/A al teléfono 0800-722-0048."
+  },
+  "logoStrip": {
+    "label": "Acreditados y regulados por",
+    "badge1Label": "Top 10 Oficinas de Inversión",
+    "badge1Sub": "Necton 2024",
+    "badge2Label": "Socio Acreditado",
+    "badge2Sub": "BTG Pactual",
+    "badge3Label": "Regulado por CVM",
+    "badge3Sub": "Asesor Registrado",
+    "badge4Label": "CEA · CFP® · MBA FGV",
+    "badge4Sub": "Certificados"
+  }
+}

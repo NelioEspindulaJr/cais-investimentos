@@ -1,0 +1,243 @@
+{
+  "nav": {
+    "product": "Product",
+    "features": "Features",
+    "solutions": "Solutions",
+    "resources": "Resources",
+    "about": "About",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "featuresDesc": "Full features",
+    "solutionsDesc": "Personalized solutions",
+    "personal": "Individual",
+    "personalDesc": "Personal advisory",
+    "corporate": "Corporate",
+    "corporateDesc": "Corporate advisory"
+  },
+  "hero": {
+    "badge": "BTG Pactual Partner · Top 10 Offices 2024",
+    "title": "Your house of",
+    "titleAccent": "investments",
+    "subtitle": "Personalized investment advisory for individuals and companies. We navigate the financial markets together with strategy, transparency, and 30 years of experience.",
+    "cta": "Get Started",
+    "ctaSecondary": "Meet Our Team",
+    "scrollIndicator": "Scroll to explore",
+    "stats": [
+      {
+        "value": "500+",
+        "label": "Clients"
+      },
+      {
+        "value": "BTG",
+        "label": "Pactual"
+      },
+      {
+        "value": "Top 10",
+        "label": "Necton 2024"
+      }
+    ]
+  },
+  "stats": {
+    "title": "Numbers that define us",
+    "years": "Years of Experience",
+    "clients": "Active Clients",
+    "awards": "Awards Received",
+    "aum": "In Managed Assets",
+    "yearsValue": "30+",
+    "clientsValue": "500+",
+    "awardsValue": "10+",
+    "aumValue": "R$1B+"
+  },
+  "services": {
+    "title": "Investment Solutions",
+    "subtitle": "Personalized strategies for each profile and objective",
+    "personal": {
+      "title": "Personal Investment Advisory",
+      "description": "Financial planning and portfolio management for individuals seeking sustainable wealth growth.",
+      "features": [
+        "Risk profile analysis",
+        "Portfolio diversification",
+        "Continuous monitoring",
+        "Personalized reports"
+      ]
+    },
+    "corporate": {
+      "title": "Corporate Investment Advisory",
+      "description": "Corporate financial solutions to optimize your company's capital with safety and profitability.",
+      "features": [
+        "Corporate cash management",
+        "Fixed income investments",
+        "Structured products",
+        "Tax advisory"
+      ]
+    },
+    "label": "Solutions",
+    "learnMore": "Learn more"
+  },
+  "features": {
+    "title": "Why choose Cais?",
+    "subtitle": "A complete investment platform focused on results",
+    "items": [
+      {
+        "title": "Proven Expertise",
+        "description": "Team with CEA and CFP® certifications and decades of experience in the Brazilian and international financial market."
+      },
+      {
+        "title": "BTG Pactual Partner",
+        "description": "Privileged access to products and platform of Latin America's largest investment bank."
+      },
+      {
+        "title": "Personalized Approach",
+        "description": "Each client receives a unique strategy based on their goals, time horizon and risk tolerance."
+      },
+      {
+        "title": "Full Transparency",
+        "description": "Clear and periodic reports on the performance and composition of your portfolio."
+      },
+      {
+        "title": "Cutting-edge Technology",
+        "description": "Integrated digital platform for real-time monitoring of your investments."
+      },
+      {
+        "title": "Dedicated Service",
+        "description": "Advisors available in Santa Maria de Jetibá/ES and Recife/PE, with national coverage."
+      }
+    ],
+    "label": "Differentials",
+    "ctaText": "Ready to start your investment journey with the best professionals?",
+    "ctaButton": "Talk to a specialist"
+  },
+  "testimonials": {
+    "title": "What our clients say",
+    "subtitle": "Real stories of financial transformation",
+    "items": [
+      {
+        "name": "Carlos M.",
+        "role": "Business Owner",
+        "text": "Cais Investimentos transformed my vision of wealth management. With their advisory, I managed to diversify my portfolio intelligently and safely.",
+        "company": "Technology Company"
+      },
+      {
+        "name": "Ana P.",
+        "role": "Doctor",
+        "text": "Exceptional professionals who understand my specific needs as a self-employed individual. My portfolio has grown consistently over the past 3 years.",
+        "company": "Medical Clinic"
+      },
+      {
+        "name": "Roberto S.",
+        "role": "Financial Director",
+        "text": "Cais's corporate advisory was fundamental to optimizing our company's capital. Returns above the market average.",
+        "company": "Regional Industry"
+      }
+    ],
+    "label": "Testimonials",
+    "verifiedClient": "Verified client",
+    "clientsTitle": "Clients who trust us",
+    "companies": [
+      "Company A",
+      "Company B",
+      "Company C",
+      "Company D",
+      "Company E",
+      "Company F"
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about Cais Investimentos",
+    "items": [
+      {
+        "question": "What is the minimum amount to start investing with Cais?",
+        "answer": "There is no fixed minimum. We adapt our solutions to each client's profile and available capital. Contact us for a personalized assessment."
+      },
+      {
+        "question": "How does the partnership with BTG Pactual work?",
+        "answer": "We are an office accredited by BTG Pactual, Latin America's largest investment bank. This allows us to offer access to all BTG platform and exclusive products to our clients."
+      },
+      {
+        "question": "What certifications does the Cais team have?",
+        "answer": "Our team holds CEA (Investment Specialist Certification), CFP® (Certified Financial Planner) and FGV MBA certifications, plus over 30 years of financial market experience."
+      },
+      {
+        "question": "Does Cais serve clients throughout Brazil?",
+        "answer": "Yes! Although we have physical offices in Santa Maria de Jetibá/ES and Recife/PE, we serve clients throughout Brazil with digital and in-person meetings."
+      },
+      {
+        "question": "How is my portfolio managed?",
+        "answer": "We conduct a complete analysis of your investor profile, objectives and time horizon. We then build a diversified portfolio and make periodic adjustments as the market and your needs evolve."
+      },
+      {
+        "question": "How often do I receive reports about my investments?",
+        "answer": "We provide detailed monthly reports and are available for periodic follow-up meetings. You also have real-time access to the BTG Pactual platform."
+      }
+    ],
+    "label": "FAQ",
+    "helpText": "Didn't find what you were looking for?",
+    "helpLink": "Get in touch",
+    "helpSuffix": "with our team of specialists."
+  },
+  "contact": {
+    "title": "Ready to get started?",
+    "subtitle": "Talk to our specialists and take the first step towards intelligent financial management",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your@email.com",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "messagePlaceholder": "How can we help you?"
+    },
+    "success": "Message sent! We will contact you shortly.",
+    "label": "Contact",
+    "successTitle": "Message sent!",
+    "sendAnother": "Send another message",
+    "officesTitle": "Offices",
+    "office1Name": "Santa Maria de Jetibá",
+    "office1State": "Espírito Santo, ES",
+    "office2Name": "Recife",
+    "office2State": "Pernambuco, PE",
+    "btgPartner": "BTG Pactual Partner",
+    "btgAccredited": "Accredited Office",
+    "btgDesc": "Privileged access to the products and platform of Latin America's largest investment bank."
+  },
+  "footer": {
+    "tagline": "Your house of investments",
+    "rights": "All rights reserved",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "cookies": "Cookies"
+    },
+    "offices": "Offices",
+    "office1": "Santa Maria de Jetibá, ES",
+    "office2": "Recife, PE",
+    "partner": "Accredited Partner",
+    "description": "Personalized investment advisory for individuals and companies.",
+    "servicesTitle": "Services",
+    "serviceLinks": [
+      "Personal Investment Advisory",
+      "Corporate Advisory",
+      "Financial Planning",
+      "Portfolio Management"
+    ],
+    "companyTitle": "Company",
+    "companyAbout": "About",
+    "companyTeam": "Team",
+    "companyContact": "Contact",
+    "disclaimer": "Cais Investimentos Assessor De Investimento Ltda, registered under CNPJ No. 49.404.040/0001-98, is an investment advisory company duly registered with the Comissão de Valores Mobiliários (CVM) pursuant to CVM Resolution 178. Operating in the financial market as an agent of Banco BTG Pactual S/A, which can be verified through the ANCORD website (<ancordLink>https://www.ancord.org.br/certificacao-e-credenciamento/</ancordLink>) or through the Necton Investimentos website (<nectonLink>https://www.necton.com.br/seja-parceiro/</nectonLink>). Banco BTG Pactual S/A is a financial institution that is part of the securities distribution system, acting as an intermediary for its clients' transactions. Under CVM regulations, the investment advisor cannot manage or administer investors' assets, as it is an agent of the intermediary and depends on prior client authorization to carry out transactions in the financial market. In derivatives transactions, there is a possibility of significant financial losses, even exceeding the amounts invested. The advisory may carry out other activities related to the financial, capital markets, insurance, pension and capitalization sectors, which may or may not be in partnership with BTG Pactual or other institutions, and which may or may not be carried out by the same legal entity as the advisory. Specifically regarding asset management, consulting and securities analysis activities, these may be performed by group companies and never by the investment advisory itself, as they are conflicting activities that require segregation. Investing in stocks is a risk investment and past performance does not guarantee future returns. For complaints, please contact the Ombudsman of Banco BTG Pactual S/A at 0800-722-0048."
+  },
+  "logoStrip": {
+    "label": "Accredited and regulated by",
+    "badge1Label": "Top 10 Investment Offices",
+    "badge1Sub": "Necton 2024",
+    "badge2Label": "Accredited Partner",
+    "badge2Sub": "BTG Pactual",
+    "badge3Label": "CVM Regulated",
+    "badge3Sub": "Registered Advisor",
+    "badge4Label": "CEA · CFP® · MBA FGV",
+    "badge4Sub": "Certified"
+  }
+}

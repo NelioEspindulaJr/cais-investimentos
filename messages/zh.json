@@ -1,0 +1,243 @@
+{
+  "nav": {
+    "product": "产品",
+    "features": "功能",
+    "solutions": "解决方案",
+    "resources": "资源",
+    "about": "关于",
+    "contact": "联系",
+    "getStarted": "开始",
+    "featuresDesc": "完整功能",
+    "solutionsDesc": "个性化解决方案",
+    "personal": "个人",
+    "personalDesc": "个人顾问",
+    "corporate": "企业",
+    "corporateDesc": "企业顾问"
+  },
+  "hero": {
+    "badge": "BTG Pactual合作伙伴 · 2024年十大投资机构",
+    "title": "您的",
+    "titleAccent": "投资之家",
+    "subtitle": "为个人和企业提供个性化投资咨询服务。我们携手共同在金融市场中航行，凭借策略、透明度和30年的经验。",
+    "cta": "立即开始",
+    "ctaSecondary": "认识我们的团队",
+    "scrollIndicator": "向下滚动探索",
+    "stats": [
+      {
+        "value": "500+",
+        "label": "客户"
+      },
+      {
+        "value": "BTG",
+        "label": "Pactual"
+      },
+      {
+        "value": "Top 10",
+        "label": "Necton 2024"
+      }
+    ]
+  },
+  "stats": {
+    "title": "定义我们的数字",
+    "years": "年经验",
+    "clients": "活跃客户",
+    "awards": "所获奖项",
+    "aum": "管理资产",
+    "yearsValue": "30+",
+    "clientsValue": "500+",
+    "awardsValue": "10+",
+    "aumValue": "10亿雷亚尔+"
+  },
+  "services": {
+    "title": "投资解决方案",
+    "subtitle": "为每个客户提供个性化策略",
+    "personal": {
+      "title": "个人投资咨询",
+      "description": "为寻求可持续财富增长的个人提供财务规划和投资组合管理。",
+      "features": [
+        "风险概况分析",
+        "投资组合多元化",
+        "持续监控",
+        "个性化报告"
+      ]
+    },
+    "corporate": {
+      "title": "企业投资咨询",
+      "description": "企业金融解决方案，以安全和盈利性优化贵公司的资本。",
+      "features": [
+        "企业现金管理",
+        "固定收益投资",
+        "结构性产品",
+        "税务咨询"
+      ]
+    },
+    "label": "解决方案",
+    "learnMore": "了解更多"
+  },
+  "features": {
+    "title": "为什么选择Cais？",
+    "subtitle": "以结果为导向的完整投资平台",
+    "items": [
+      {
+        "title": "经验丰富",
+        "description": "团队拥有CEA和CFP®认证，在巴西和国际金融市场拥有数十年经验。"
+      },
+      {
+        "title": "BTG Pactual合作伙伴",
+        "description": "特权访问拉丁美洲最大投资银行的产品和平台。"
+      },
+      {
+        "title": "个性化方法",
+        "description": "每位客户都会根据其目标、时间范围和风险承受能力获得独特策略。"
+      },
+      {
+        "title": "完全透明",
+        "description": "关于您的投资组合表现和构成的清晰定期报告。"
+      },
+      {
+        "title": "尖端技术",
+        "description": "用于实时监控您的投资的集成数字平台。"
+      },
+      {
+        "title": "专属服务",
+        "description": "在巴西各地提供顾问服务，覆盖全国和国际客户。"
+      }
+    ],
+    "label": "差异化优势",
+    "ctaText": "准备好与最优秀的专业人士开始您的投资之旅了吗？",
+    "ctaButton": "与专家交谈"
+  },
+  "testimonials": {
+    "title": "客户评价",
+    "subtitle": "真实的财务转变故事",
+    "items": [
+      {
+        "name": "Carlos M.",
+        "role": "企业主",
+        "text": "Cais Investimentos改变了我对财富管理的看法。在他们的建议下，我成功地以智能和安全的方式多元化了我的投资组合。",
+        "company": "科技公司"
+      },
+      {
+        "name": "Ana P.",
+        "role": "医生",
+        "text": "出色的专业人士，了解我作为自雇人士的特殊需求。在过去3年里，我的投资组合一直在持续增长。",
+        "company": "医疗诊所"
+      },
+      {
+        "name": "Roberto S.",
+        "role": "财务总监",
+        "text": "Cais的企业咨询对于优化我们公司的资本至关重要。回报率高于市场平均水平。",
+        "company": "区域工业"
+      }
+    ],
+    "label": "客户评价",
+    "verifiedClient": "已验证客户",
+    "clientsTitle": "信任我们的客户",
+    "companies": [
+      "公司A",
+      "公司B",
+      "公司C",
+      "公司D",
+      "公司E",
+      "公司F"
+    ]
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "关于Cais Investimentos您需要了解的一切",
+    "items": [
+      {
+        "question": "与Cais开始投资的最低金额是多少？",
+        "answer": "没有固定的最低金额。我们根据每位客户的资料和可用资本调整我们的解决方案。"
+      },
+      {
+        "question": "与BTG Pactual的合作关系如何运作？",
+        "answer": "我们是BTG Pactual认证的机构，BTG Pactual是拉丁美洲最大的投资银行。"
+      },
+      {
+        "question": "Cais团队有哪些认证？",
+        "answer": "我们的团队拥有CEA、CFP®认证和FGV MBA学位，以及超过30年的金融市场经验。"
+      },
+      {
+        "question": "Cais为全巴西的客户服务吗？",
+        "answer": "是的！尽管我们在Santa Maria de Jetibá/ES和Recife/PE设有实体办公室，但我们通过数字和面对面会议为全巴西的客户提供服务。"
+      },
+      {
+        "question": "如何管理我的投资组合？",
+        "answer": "我们对您的投资者概况、目标和时间范围进行全面分析，然后建立多元化投资组合。"
+      },
+      {
+        "question": "多久收到一次关于我的投资报告？",
+        "answer": "我们提供详细的月度报告，并可进行定期跟进会议。您还可以实时访问BTG Pactual平台。"
+      }
+    ],
+    "label": "常见问题",
+    "helpText": "没有找到您想要的内容？",
+    "helpLink": "联系我们",
+    "helpSuffix": "联系我们的专家团队。"
+  },
+  "contact": {
+    "title": "准备好开始了吗？",
+    "subtitle": "与我们的专家交流，迈出走向智慧财务管理的第一步",
+    "form": {
+      "name": "全名",
+      "email": "电子邮件",
+      "phone": "电话",
+      "message": "消息",
+      "submit": "发送消息",
+      "namePlaceholder": "您的姓名",
+      "emailPlaceholder": "your@email.com",
+      "phonePlaceholder": "+86 000 0000 0000",
+      "messagePlaceholder": "我们能如何帮助您？"
+    },
+    "success": "消息已发送！我们将尽快与您联系。",
+    "label": "联系我们",
+    "successTitle": "消息已发送！",
+    "sendAnother": "发送另一条消息",
+    "officesTitle": "办事处",
+    "office1Name": "Santa Maria de Jetibá",
+    "office1State": "Espírito Santo, ES",
+    "office2Name": "Recife",
+    "office2State": "Pernambuco, PE",
+    "btgPartner": "BTG Pactual合作伙伴",
+    "btgAccredited": "认证办事处",
+    "btgDesc": "特权访问拉丁美洲最大投资银行的产品和平台。"
+  },
+  "footer": {
+    "tagline": "您的投资之家",
+    "rights": "版权所有",
+    "links": {
+      "privacy": "隐私政策",
+      "terms": "使用条款",
+      "cookies": "Cookies"
+    },
+    "offices": "办公室",
+    "office1": "Santa Maria de Jetibá, ES",
+    "office2": "Recife, PE",
+    "partner": "认证合作伙伴",
+    "description": "为个人和企业提供个性化的投资顾问服务。",
+    "servicesTitle": "服务",
+    "serviceLinks": [
+      "个人投资顾问",
+      "企业顾问",
+      "财务规划",
+      "投资组合管理"
+    ],
+    "companyTitle": "公司",
+    "companyAbout": "关于我们",
+    "companyTeam": "团队",
+    "companyContact": "联系",
+    "disclaimer": "Cais Investimentos Assessor De Investimento Ltda，CNPJ编号49.404.040/0001-98，是一家依法在巴西证券委员会（Comissão de Valores Mobiliários，CVM）根据CVM第178号决议注册的投资咨询公司。作为Banco BTG Pactual S/A在金融市场的代理人，可通过ANCORD网站（<ancordLink>https://www.ancord.org.br/certificacao-e-credenciamento/</ancordLink>）或Necton Investimentos网站（<nectonLink>https://www.necton.com.br/seja-parceiro/</nectonLink>）进行核实。Banco BTG Pactual S/A是证券分销体系的成员金融机构，作为客户交易的中介机构。根据CVM法规，投资顾问不得管理或经营投资者的资产，因为其是中介机构的代理人，需要事先获得客户授权才能在金融市场进行操作。在衍生品交易中，存在重大财产损失的可能性，甚至可能超过投资金额。本咨询公司可能开展与金融市场、资本市场、保险、养老和资本化相关的其他活动，这些活动可能与BTG Pactual或其他机构合作，也可能不合作，并可能由与咨询公司相同或不同的法律实体开展。特别是关于证券的管理、咨询和分析活动，这些活动可能由集团公司执行，而绝不由投资咨询公司本身执行，因为这些是相互冲突且需要分离的活动。股票投资是一种风险投资，过去的收益不保证未来的收益。如需投诉，请拨打Banco BTG Pactual S/A客服热线0800-722-0048联系投诉部门。"
+  },
+  "logoStrip": {
+    "label": "经认可并受监管于",
+    "badge1Label": "十大投资事务所",
+    "badge1Sub": "Necton 2024",
+    "badge2Label": "认证合作伙伴",
+    "badge2Sub": "BTG Pactual",
+    "badge3Label": "CVM监管",
+    "badge3Sub": "注册顾问",
+    "badge4Label": "CEA · CFP® · MBA FGV",
+    "badge4Sub": "持证认证"
+  }
+}

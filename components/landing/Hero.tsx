@@ -1,0 +1,187 @@
+"use client";
+
+import { useRef } from "react";
+import { useTranslations } from "next-intl";
+import { motion, useScroll, useTransform, useSpring } from "framer-motion";
+import { ArrowRight, ChevronDown } from "lucide-react";
+import Image from "next/image";
+import { analytics } from "@/lib/analytics";
+
+export default function Hero() {
+  const t = useTranslations("hero");
+  const containerRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start start", "end start"],
+  });
+
+  const y = useTransform(scrollYProgress, [0, 1], [0, 200]);
+  const opacity = useTransform(scrollYProgress, [0, 0.6], [1, 0]);
+  const scale = useTransform(scrollYProgress, [0, 0.8], [1, 0.9]);
+  const compassY = useTransform(scrollYProgress, [0, 1], [0, -120]);
+  const compassScale = useTransform(scrollYProgress, [0, 1], [1, 1.3]);
+  const compassOpacity = useTransform(scrollYProgress, [0, 0.8], [0.15, 0]);
+  const scrollIndicatorOpacity = useTransform(
+    scrollYProgress,
+    [0, 0.08],
+    [1, 0],
+  );
+
+  const springY = useSpring(y, { stiffness: 100, damping: 30 });
+
+  return (
+    <section
+      ref={containerRef}
+      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-[#0a0a0f] grid-bg"
+    >
+      <motion.div
+        style={{ y: compassY, scale: compassScale, opacity: compassOpacity }}
+        className="absolute inset-0 flex items-center justify-center pointer-events-none"
+      >
+        <Image
+          alt="cais-logo-small"
+          src="cais-small.svg"
+          width={850}
+          height={700}
+        />
+      </motion.div>
+      <div
+        className="absolute inset-0 bg-radial-gradient pointer-events-none"
+        style={{
+          background:
+            "radial-gradient(ellipse 80% 60% at 50% 50%, rgba(201,168,76,0.06) 0%, transparent 70%)",
+        }}
+      />
+
+      <motion.div
+        animate={{
+          x: [0, 30, 0, -30, 0],
+          y: [0, -20, 30, -10, 0],
+        }}
+        transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
+        className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full pointer-events-none"
+        style={{
+          background:
+            "radial-gradient(circle, rgba(201,168,76,0.04) 0%, transparent 70%)",
+          filter: "blur(40px)",
+        }}
+      />
+      <motion.div
+        animate={{
+          x: [0, -40, 20, 10, 0],
+          y: [0, 30, -20, 40, 0],
+        }}
+        transition={{ duration: 25, repeat: Infinity, ease: "easeInOut" }}
+        className="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full pointer-events-none"
+        style={{
+          background:
+            "radial-gradient(circle, rgba(42,124,79,0.05) 0%, transparent 70%)",
+          filter: "blur(40px)",
+        }}
+      />
+
+      <motion.div
+        style={{ y: springY, opacity, scale }}
+        className="relative z-10 text-center px-4 max-w-5xl mx-auto"
+      >
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          className="inline-flex items-center gap-2 mb-8"
+        >
+          <div className="flex items-center gap-2 px-4 py-1.5 rounded-full border border-[rgba(201,168,76,0.25)] bg-[rgba(201,168,76,0.06)] text-[#c9a84c] text-xs tracking-wider uppercase">
+            <span className="hidden md:flex w-1.5 h-1.5 rounded-full bg-[#c9a84c] animate-pulse" />
+            {t("badge")}
+          </div>
+        </motion.div>
+
+        <motion.h1
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light text-white leading-none tracking-tight mb-6"
+        >
+          <span className="block text-white/90">{t("title")}</span>
+          <span className="block gradient-text font-semibold">
+            {t("titleAccent")}
+          </span>
+        </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="text-white/50 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10"
+        >
+          {t("subtitle")}
+        </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="flex flex-col sm:flex-row items-center justify-center gap-4"
+        >
+          <motion.a
+            href="#contact"
+            whileHover={{ scale: 1.03 }}
+            whileTap={{ scale: 0.98 }}
+            onClick={() => analytics.ctaClick("hero_primary")}
+            className="group flex items-center gap-2 bg-[#c9a84c] hover:bg-[#e2c06a] text-black font-semibold px-8 py-3.5 rounded-full text-sm transition-all duration-300 glow-gold"
+          >
+            {t("cta")}
+            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+          </motion.a>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="flex flex-wrap items-center justify-center gap-8 mt-16 pt-16 border-t border-white/5"
+        >
+          {(t.raw("stats") as Array<{ value: string; label: string }>).map(
+            (stat, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.9 + i * 0.1 }}
+                className="flex flex-col items-center gap-1"
+              >
+                <span className="text-2xl font-semibold text-[#c9a84c]">
+                  {stat.value}
+                </span>
+                <span className="text-xs text-white/40 uppercase tracking-wider">
+                  {stat.label}
+                </span>
+              </motion.div>
+            ),
+          )}
+        </motion.div>
+      </motion.div>
+
+      <motion.div
+        style={{ opacity: scrollIndicatorOpacity }}
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+      >
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.5 }}
+          className="flex flex-col items-center gap-2"
+        >
+          <span className="text-white/30 text-xs tracking-widest uppercase">
+            {t("scrollIndicator")}
+          </span>
+          <motion.div
+            animate={{ y: [0, 6, 0] }}
+            transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+          >
+            <ChevronDown className="w-4 h-4 text-white/30" />
+          </motion.div>
+        </motion.div>
+      </motion.div>
+    </section>
+  );
+}
